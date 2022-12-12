@@ -20,4 +20,12 @@ public class Usuario {
         System.out.println("Senha: " + this.senha.toString());
 
     }
+
+    public void criarAlbum(String nome){
+        this.nome = nome;
+    }
+
+    public void deletarAlbum (String nome){
+        this.nome = null;
+    }
 }
