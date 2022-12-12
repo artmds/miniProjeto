@@ -1,7 +1,6 @@
 public class Figurinha extends Album{
     private String nomeFigurinha;
     private int numeroFigurinha;
-
     public String getNomeFigurinha(){
         return nomeFigurinha;
     }
